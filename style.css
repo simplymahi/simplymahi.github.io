@@ -1,0 +1,493 @@
+*{
+    padding: 0;
+    margin:0;
+}
+.navbar{
+    background-color: #000;
+    width:100%;
+    height:50px;
+
+}
+.AS{
+ font-family: "Open sans",sans-serif;
+font-size: 30px;
+color:#3ac;
+text-decoration: none;
+float:left;
+font-family: 'Italianno', cursive;
+cursor: pointer;
+padding-top: 3px;
+padding-left:4px;
+}
+.acti{
+  font-family: 'Nunito', sans-serif;
+  font-size:17px;
+  font-weight:950;
+  font-style: normal;
+  text-decoration: none;
+  padding-right: 30px;
+  cursor:pointer;
+  color: #fff;
+  text-decoration: none;
+  float: right;
+  padding-left:18px;
+  padding-top: 8px;
+  }
+.active{
+    font-family: 'Nunito', sans-serif;
+    font-size:17px;
+    font-weight:950;
+    font-style: normal;
+    text-decoration: none;
+    padding-right: 30px;
+    cursor:pointer;
+    color: #fff;
+    text-decoration: none;
+    float: right;
+    padding-left:18px;
+    padding-top: 8px;
+    }
+    .active:hover{
+     text-decoration: underline solid #3ac;
+    }
+    .fa-github{
+      color:#fff;
+      font-size: 20px;
+    }
+    .fa-medium{
+      color:#fff;
+      font-size: 20px;
+    }
+    .fa-podcast{
+      color:#fff;
+      font-size: 20px;
+    }
+    .fa-youtube{
+      color:#fff;
+      font-size: 20px;
+    }
+
+
+    .container{
+      background-color: #000;
+        width:100%;
+        height:800px;
+    }
+    h1, h2 {
+        font-weight: 200;
+        margin: 0.4rem;
+        color:#fff;
+    }
+    .h{                  
+          padding-top: 200px;
+        font-size: 2.5rem;
+        color: #fff;
+      padding-left: 430px;
+      font-family: 'Nunito', sans-serif;
+      
+      }
+      .r{
+        text-decoration: none;
+        color: #fff;
+      }
+      .hq{
+        font-size: 2rem;
+        color: #fff;
+        padding-left: 450px;
+        font-family: 'Nunito', sans-serif;
+      }
+      
+      /* Cursor */
+      .txt-type > .txt {
+        border-right: 0.2rem solid #777;
+        font-family: 'Nunito', sans-serif;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      
+      /* Create two equal columns that floats next to each other */
+      .column {
+        float: left;
+        width: 50%;
+       background-color: #000;
+        padding: 10px;
+        height: 200px; /* Should be removed. Only for demonstration */
+      }
+      
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      .para{
+    
+    font-family: 'Nunito', serif; 
+    font-size: 18px;
+    color: #000;
+}
+.par{
+    float:left;
+display: flex;
+    font-size: 20px;
+    color:#000;
+    font-family: 'Courier New', monospace;
+}
+.al{
+height: 300px;
+width:400px;
+}
+.row{
+    height:400px;
+    background-color: #000;
+}
+
+
+.hello {
+    background-color: #f2f2f2;
+  padding-top: 30px;
+    color: white;
+    height:50px;
+  }
+  .l{
+    font-family: 'Open Sans', sans-serif;
+      font-size: 20px;
+      color: #000;
+  }
+  .li{
+    
+    font-family: 'Nunito', serif; 
+    font-size: 18px;
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .buttoom{
+    border: none;
+    color: white;
+    border-radius: 4px;
+    padding: 8px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+    cursor:pointer;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+    
+
+  .buttoom:hover{
+    background-color: #4CAF50;
+    color: white;
+  }
+  .r:hover{
+    background-color: #4CAF50;
+    color: white;
+  }
+  .aa{
+float: right;
+color:#fff;
+text-decoration: none;
+color:#595959;
+padding-right: 20px;
+padding-top: 15px;
+font-size: 25px;
+  }
+  .sc{
+    font-size: 20px;
+    padding-left: 520px;
+    color: #595959;
+  
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .card-section{
+      background-color: #000;
+  }
+  @media only screen and (max-width:490px){
+    .card-section{
+      height: 700px;
+    }
+  }
+@media only screen and (max-width: 550px){
+  .navbar{
+    height: 285px;
+    
+    background-color: #000;
+    
+    
+  }
+  .car{
+    height:600px;
+  }
+  .AS{
+  padding-left: 2px;
+    padding-bottom: 10px;
+
+  }
+  .active{
+    padding-left: 2px;
+    padding-top:6px;
+    border-top: 2px solid#fff;
+    padding-bottom: 10px;
+    color:#000;
+  }
+  .acti{
+    padding-left: 2px;
+    padding-top: 6px;
+    color:#000;
+
+    padding-bottom: 10px;
+    border-top: 2px solid #fff;
+  }
+  
+}
+@media(max-width:1150px){
+  .column{
+    height:400px;
+  }
+  .hello{
+    border-top: 2px solid#fff;
+    width:100%;
+    padding-top: 17px;
+  }
+  .sc{
+    border-top:2px solid#fff;
+    font-size: 17px;
+    background-color: #000;
+    padding-left: 20px;
+    color:#fff;
+    padding-top: 18px;
+  }
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  border-left: 2px solid#fff;
+  padding: 5px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media(max-width:1000px){
+  .container{
+    height: 700px;
+  }
+  .column{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: 300px;
+    border-left: 2px solid#000;
+    border-bottom: 2px solid#fff;
+  }
+  .card-section{
+    height: 500px;
+  }
+  .h{
+    padding-left: 200px;
+  }
+  .hq{
+    padding-left: 200px;
+  }
+}
+
+@media(max-width:690px){
+  .container{
+    height: 420px;
+    
+  }
+.h{
+  padding-top: 70px;
+}
+
+  .column{
+    width:100%;
+    flex-direction: column;
+    height: 340px;
+  
+  }
+  .h{
+    padding-left: 100px;
+  }
+  .hq{
+    padding-left: 100px;
+  }
+}
+@media(max-width:480px){
+  .h{
+    font-size: 25px;
+    padding-left: 50px;
+  }
+  .txt-type{
+    font-size: 25px;
+  }
+  .hq{
+    font-size:25px;
+    padding-left: 50px;
+  }
+}
+@media(max-width:330px){
+.h{
+padding-left: 5px;
+font-size: 19px;
+}
+.hq{
+  padding-left: 5px;
+  font-size: 19px;
+}
+.txt-type{
+  font-size: 19px;
+}
+}
+.j{
+  font-family: 'Nunito', sans-serif;
+  font-size:17px;
+  font-weight:950;
+  font-style: normal;
+  text-decoration: none;
+  padding-right: 30px;
+
+  color: #fff;
+  text-decoration: none;
+  
+  padding-left:18px;
+  padding-top: 8px;
+  }
+  .l{
+    font-family: 'Nunito', sans-serif;
+    font-size:24px;
+    font-weight:950;
+    font-style: normal;
+    padding-left: 40px;
+    padding-top: 3px;
+  
+    color: #fff;
+    text-decoration: none;
+    }
+  .ll{
+    font-family: 'Nunito', sans-serif;
+    font-size:24px;
+    font-weight:950;
+    font-style: normal;
+    padding-left:17px;
+    padding-bottom: 5px;
+    padding-top: 3px;
+  
+    color: #fff;
+    text-decoration: none;
+    }
+    .button {
+      background-color: #3ac; /* Green */
+      border: none;
+      color: white;
+      padding: 15px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 2px 1px;
+      cursor: pointer;
+    }
+    .jj{
+      font-family: 'Nunito', sans-serif;
+      font-size:17px;
+      font-weight:950;
+      font-style: normal;
+      text-decoration: none;
+  
+    
+      color: #525252;
+      text-decoration: none;
+      
+      padding-left:100px;
+      padding-top: 8px;
+      }
+    .button4 {border-radius: 40px;}
+    .activ{
+      color:#000;
+      font-family: 'Nunito', sans-serif;
+      font-size:17px;
+      font-weight:950;
+      font-style: normal;
+      text-decoration: none;
+      padding-right: 30px;
+      cursor:pointer;
+      color: #525252;
+      text-decoration: none;
+      float: right;
+      padding-left:18px;
+      padding-top: 8px;
+    }
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+  text-decoration: none;
+}
+.gool{
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  min-height: 60px;
+margin-top: 90px;
+background-color: #000;
+box-shadow: inset 0 8px 8px -8px rgba(0,0,0,0.1);
+padding: 40px 0;
+  
+}
+
+.d{
+  padding-left:540px;
+  color:#fff;
+  font-family: 'Nunito',sans-serif;
+}
+
+@media(max-width:1100px){
+  .gool{
+    width:100%;
+    height:80px;
+    min-height: 60px;
+    margin-top: 2px;
+    background-color: #000;
+    box-shadow: inset 0 8px 8px -8px rgba(0,0,0,0.1);
+  
+  }
+  .d{
+    padding-left: 200px;
+     margin-top:3px;
+     width:100%;
+  }
+}
+@media(max-width:700px){
+  .gool{
+    border-top: 2px solid#fff;
+  }
+  .d{
+    margin-top: 15px;
+    padding: 20px 10px 30px;
+    padding-left: 20px;
+    width:100%;
+    background-color: #000;
+  }
+}
+.o{
+  width:100%;
+  height:20px;
+  color:#000;
+
+}
